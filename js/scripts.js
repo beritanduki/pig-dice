@@ -1,4 +1,4 @@
-/business logic
+//business logic
 var player1="";
 var player2="";
 
