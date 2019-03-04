@@ -20,7 +20,8 @@ Player.prototype.rollone = function() {
   this.tempscore = 0;
   alert("Sorry " + this.playerName + ", you rolled a 1! Your turn is over!")
   // this.changeturn();
-  } else {
+  }
+   else {
   this.tempscore += this.roll;
   }
 }
@@ -29,11 +30,11 @@ Player.prototype.rollone = function() {
 Player.prototype.hold = function () {
   this.totalscore += this.tempscore;
   this.tempscore = 0;
-  // this.changeturn();
+  // this.changeturn();  
   alert(this.playerName + ", your turn is over,its the other players turn");
 }
 
-// // changing turn
+// // changing turn8
 // Player.prototype.changeturn = function () {
 //   if (this.roll ===1) {
 //     this.turn = false;
