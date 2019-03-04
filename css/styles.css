@@ -6,7 +6,16 @@
   background-image: url('black.jpg');
   background-size: cover;
       color: #001f75;
+  background-color: black;
 }
 body{
   background-color: black;
+}
+img{
+  position: relative;
+}
+.img{
+  width: 30%;
+  height: 30%;
+  float: left;
 }
