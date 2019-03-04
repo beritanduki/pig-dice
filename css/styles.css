@@ -1,8 +1,12 @@
-h1{
-  font-family: fantasy;
-  padding: 20%;
+.container {
+  font-size: 20px;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0px;
+  background-image: url('black.jpg');
+  background-size: cover;
+      color: #001f75;
 }
 body{
-  background-
- 
+  background-color: black;
 }
